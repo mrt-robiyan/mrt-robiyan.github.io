@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
+body::before {
+  content: "";
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../../img/main.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+  position: absolute;
+  opacity: 0.8;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  body::before {
+    opacity: 0.4;
+  }
+}
+
+.custom-nav .costum-collaspse .custom-brand img {
+  width: 40px;
+  height: 40px;
+  margin-top: -6px;
+}
+
+.custom-nav .costum-collaspse .custom-brand span {
+  color: #7a0014;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+}
+
+.custom-nav #navbarNav .nav-link {
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 2.2em;
+}
+
+.custom-nav #navbarNav .nav-link:hover {
+  color: #737373;
+}
+
+.custom-sect {
+  margin-top: 18em;
+  color: #ff0000;
+}
+
+.custom-sect h1 {
+  opacity: 1;
+  font-weight: 400;
+  font-size: 4rem;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-sect h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-sect p {
+  font-size: 1.2rem;
+  margin-top: 2em;
+  line-height: 1;
+}
+
+.custom-sect a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer {
+  margin-top: 10em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+/*# sourceMappingURL=landing.css.map */
